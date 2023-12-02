@@ -52,7 +52,6 @@ class ViewBadgeBottomSheetDialogFragment : FixedRoundedCornerBottomSheetDialogFr
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     postponeEnterTransition()
-
     if (getRecipientId() == Recipient.self().id) {
       binding.action.visible = false
     }
